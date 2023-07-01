@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+}
+
+.Section1{
+    position: relative;
+}
+
+.img{
+/* dont add width to full image,  always use 100% width */
+height: 650px;
+}
+
+.img img{
+   width: 100%;
+}
+
+.loopstudios{
+    font-family: 'Alata', sans-serif;
+    margin: 20px;
+    position: absolute;
+    z-index:1; 
+    top: 5px;
+    left: 30px;
+    color: whitesmoke;
+}
+
+.button{
+    display: flex;
+    justify-items: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    gap: 28px;
+    position: absolute;
+    left: 800px;
+    color: white;
+}
+
+.main{
+ border: 1px solid white;
+ padding: 20px;
+ z-index:1; 
+ position: absolute;
+ top: 50%; 
+ /* add top or bottom to signify where you want it */
+ left: 18px;
+ color: whitesmoke;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.Section2{
+    position: relative;
+  display: grid;
+  grid-template-columns: 665px 3fr;
+}
+
+.image2{
+    max-width: 100%;
+}
+
+.image2 img {
+    width: 889px;
+    height: 500px;
+    padding: 35px;
+}
+
+.texts2{
+ position: absolute;
+ background-color: white;
+ left: 650px;
+ top: 188px;
+
+}
+.texts2 p{
+    color: #000;
+    font-size: 15px;
+    font-family: Alata;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    left: 500px;
+    width: 541px;
+    height: 317;
+    text-align: bottom;
+    padding: 0px 0px 0px 90px;
+
+}
+
+.texts2 h1 {
+    color: #000;
+    font-size: 35px;
+    font-family: Josefin Sans;
+    font-style: normal;
+    font-weight: 300;
+    padding: 55px;
+    display: flex;
+    width: 405px;
+}
+
+.sectionb{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 60px 0px 20px 0px;
+    position: relative;
+}
+
+.creations{
+    color: #000;
+ font-size: 48px;
+ font-family: Josefin Sans;
+ font-style: normal;
+ font-weight: 300;
+ line-height: 48px;
+ text-transform: uppercase;
+ padding-left: 35px;
+ right: 200px;
+
+}
+
+.see{
+    color: #FFF;
+ font-size: 14px;
+ font-family: Alata;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 14px;
+ letter-spacing: 5px;
+ text-transform: uppercase;
+ background-color: #000;
+ text-align: center;
+ padding: 20px;
+ margin-right: 40px;
+}
+
+.section3{
+    width: 256px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgStack{
+    justify-items: center;
+    align-items: center;
+}
+
+.imageStack1{
+    width: 256px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+    padding-left: 35px;
+
+}
+
+.imgStack2{
+    width: 256px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 40px;
+    padding-left: 35px;
+}
+
+.section4{
+ background-color: #000;
+ position: relative;
+ top: 500px;
+ height: 160px;
+ margin-top: 200px;
+
+}
+
+/*.loopButton{
+ display: grid;
+ grid-template-columns: 50px 5px;
+}*/
+
+
+.Lupstudios2{
+ position: absolute;
+ left: 100px;
+padding: 20px;
+}
+
+.socialmediaIcons{
+    position: absolute;
+    left: 925px;
+    padding: 20px;
+}
+
+.downButton{
+    display: flex;
+    justify-items: space-between;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    position: absolute;
+    left: 100px;
+    bottom: 5px;
+    gap: 28px;
+    padding: 20px;
+}  
+
+.loopfinish{
+ position: absolute;
+ left: 800px;
+ bottom: 5px;
+ padding: 20px;
+}
+
+/*.mediaLoop{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+/*.imageStack{
+    width: 256px;
+    height: 450px;
+    display: flex;
+    
+    
+
+}
+/*
+.texts2 p {
+  align-items: center;
+  padding: auto;
+}
+
+/*display: flex;
+ flex-direction: column;
+
