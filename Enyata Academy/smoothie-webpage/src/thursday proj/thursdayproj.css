@@ -1,0 +1,744 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Ubuntu;
+    font-family: overpass;
+
+}
+
+.redCont{
+    display:flex;
+    flex-direction: column;
+    background-color:#FF3E55;
+    border-radius: 0px 0px 0px 100px;
+    padding: 59px 24px 155px 24px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+}
+
+.prodComCon{
+    display: none;
+}
+
+.loginSignUp{
+    display: none;
+}
+
+.modGrowButton{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 108px;
+}
+
+.modGrow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+.modGrow h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 55px;
+    letter-spacing: -1.08px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.modGrow p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.buttonstrtLearn{
+ display: flex;
+ justify-content: space-around;
+}
+
+.stFree{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: right;
+    border-radius: 30px;
+    padding: 15px 16px;
+    color: #FF505C;
+}
+
+.lMore{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: right;
+    border-radius: 30px;
+    padding: 15px 24px;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+/*secondSet*/
+
+
+.secondSet{
+    margin: 100px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondSet h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: -0.839px;
+    color: #1F3E5A;
+    display: flex; 
+    justify-content: center; 
+    margin-bottom: 38px; 
+}
+
+.visaCard{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+
+.extenFlex{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.extenBlogr{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.extenBlogr h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #1F3E5A;
+}
+
+.extenBlogr p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #4C5862;
+
+}
+
+.robFlex{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.robFlex h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #1F3E5A;
+}
+
+.robFlex p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #4C5862;
+
+}
+
+.visaBig{
+    display: none;
+    margin-right: -24px;
+}
+
+/*  n jjjj*/
+.section3{
+    padding:0px 24px 220px 24px; 
+    position: relative;
+}
+
+.group22 img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    max-width: 1440px;
+    width: 100%;
+    max-height: 725px;
+    height: 100%;
+}
+
+
+.backgroundBlue {
+    max-height: 625px;
+    height: 100%;
+}
+
+
+.RectBack{
+    display: none;
+}
+
+.phone2Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: 273px;
+}
+
+.phoneReli{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+    top: -200px;
+}
+
+
+
+
+.stateReli{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.stateReli h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: -1.2px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.stateReli p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.RectBack{
+    display: none;
+}
+
+
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 79px 24px 0px 24px;
+}
+
+.freeBatt{
+    display: flex;
+    flex-direction: column;
+    gap:40px 
+}
+
+.freeBlogr{
+    display: flex;
+    flex-direction: column;
+    gap:16px
+
+}
+
+.freeBlogr h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #1F3E5A;
+
+    
+}
+
+.freeBlogr p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #4C5862;
+}
+
+.powerBatt{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.powerBatt h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #1F3E5A;
+
+}
+
+.powerBatt p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #4C5862;
+
+}
+
+.bigLapee{
+    display: none;
+}
+
+.footer{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 0px 100px 0px 0px;
+    margin-top: 100px;
+    padding: 75px 0px 75px 0px;
+}
+
+.foot4Gap{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.prodComCon2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer img{
+    max-width: 101px;
+    width: 100%;
+}
+
+.prodUct{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.prodUct h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.prodUct li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.compAny h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+.compAny li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.connEct h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.connEct li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.blogr2Org{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (min-width: 900px){
+    .menu{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+
+    .prodComCon{
+       display: flex;
+       gap: 32px;
+       list-style: none;
+       text-decoration: none;
+
+    }
+
+    .prodComCon li{
+        text-decoration: none;
+    }
+
+
+    .products{
+        font-size: 16px;
+       font-weight: 700;
+       line-height: 18px;
+       text-align: left;
+       color: #FFFFFF;
+    
+    }
+     
+    .company{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .connect{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .loginSignUp{
+        display: flex;
+        gap: 32px;
+        list-style: none;  
+        text-decoration: #FFFFFF;
+        margin: 13px;
+    }
+
+    .loginSignUp li{
+        text-decoration: none;
+    }
+
+    .logIn{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        color: #FFFFFF;
+ 
+    }
+
+    .SigUp{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        padding: 15px 30px;
+        margin: 0 auto;
+    }
+
+    
+    .modGrowButton{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 123px;
+    }
+    
+    .modGrow h2{
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 98px;
+        letter-spacing: -1.92px;
+        color: #FFFFFF;
+        text-align: center;
+        
+    }
+    
+    .modGrow p{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    
+    }
+
+    /*secondSet*/
+
+    .secondSet{
+        margin: 150px 24px 0px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /*position: relative;*/
+    }
+
+
+    .secondSet h2{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 61px;
+        letter-spacing: -1.2px;
+        color: #1F3E5A;
+        display: flex; 
+        justify-content: center;
+
+    }
+
+    .visaCard{
+        display: none;
+    }
+
+    .extenFlex{
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    }
+
+
+    .extenBlogr h3{
+        text-align: left;
+    }
+
+    .extenBlogr p{
+        text-align: left; 
+    }
+
+    .robFlex h3{
+        text-align: left;
+    }
+
+    .robFlex p{
+        text-align: left;
+    }
+    
+
+    .bigimgText{
+        display: flex;
+        text-align: left;
+        gap: 125px;
+    }
+
+    .visaBig{
+        display: inline;
+        margin-top: -120px;
+        max-width: 590px;
+        width: 100%;
+        max-height: 882px;
+        height: 100%;  
+    }
+     
+
+    .backgroundBlue{
+        display: none;
+    }
+
+    .RectBack{
+        display: flex;
+        max-height: 400px;
+        height: 100%;
+        max-width: 1440px;
+        width: 100%;
+    
+
+
+    }
+
+    .phoneReli{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 46px;
+        top: -49px;
+    }
+
+    .phone2Text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin-top: 57px;
+    }
+
+    .phoneTwo{
+        max-width: 499px;
+        width: 100%;
+        max-height: 472px;
+        height: 100%;
+    }
+
+    .stateReli h2{
+        text-align: left;
+    }
+
+    .stateReli p{
+        text-align: left;
+    }
+
+   /* .RectBack img{
+        display: flex;
+        position: relative;
+        margin: 57px 0px 116px 0px;
+    }
+
+
+    .phoneReli{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: row;
+        gap: 98px;
+        top: -200px;
+    }
+
+    .stateReli{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }*/
+/* section 4*/
+    .freeBlogr{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+     
+    .imageAndBatt{
+        display: flex;
+
+    }
+    
+    .freeBlogr h3{
+        text-align: left;
+    }
+
+    .freeBlogr p{
+        text-align: left;
+    }
+
+    .powerBatt h3{
+        text-align: left;
+    }
+
+    .powerBatt p{
+        text-align: left;
+    }
+
+    .smallLaptop{
+        display: none;
+    }
+
+    .bigLapee{
+        display: flex;
+        margin-left: -24px;
+        max-width: 699px;
+        width: 100%;
+        max-height: 882px;
+        height: 100%;
+    }
+
+    /* footer*/
+
+    .prodComCon2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .blogr3Org{
+        display: none;
+    }
+
+    .blogr2Org{
+        display: flex;
+    }
+    
+
+
+
+}
+
+
+
