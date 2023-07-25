@@ -17,3 +17,5 @@ qty=(`${qty}`);
 console.log(`totalPrice= ${priceall}`);
 
 
+
+
